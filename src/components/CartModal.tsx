@@ -10,7 +10,7 @@ const CartModal = () => {
 				<div>Cart is Empty</div>
 			) : (
 				<>
-        <h2 className='text-xl'>Shopping Cart</h2>
+					<h2 className='text-xl'>Shopping Cart</h2>
 					<div className='flex flex-col gap-8'>
 						{/* ITEM */}
 						<div className='flex gap-4'>
@@ -49,8 +49,12 @@ const CartModal = () => {
 							Lorem ipsum dolor sit amet
 						</p>
 						<div className='flex justify-between text-sm'>
-							<button className='rounded-md py-3 px-4 ring-1 ring-gray-300'>View Cart</button>
-							<button className='rounded-md py-3 px-4 bg-black text-white'>Checkout</button>
+							<button className='rounded-md py-3 px-4 ring-1 ring-gray-300'>
+								View Cart
+							</button>
+							<button className='rounded-md py-3 px-4 bg-black text-white'>
+								Checkout
+							</button>
 						</div>
 					</div>
 				</>
